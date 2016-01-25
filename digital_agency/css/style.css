@@ -7941,3 +7941,55 @@ a:hover, a:focus {
     font-size: 100px; }
   .intro-text {
     font-size: 25px; } }
+
+.content-section {
+  padding: 70px 0 40px; }
+
+.block-icon-left {
+  overflow: auto; }
+  .block-icon-left h1, .block-icon-left h2, .block-icon-left h3, .block-icon-left h4, .block-icon-left h5, .block-icon-left h6 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 20px; }
+  .block-icon-left .icon-content {
+    float: left;
+    width: 70%; }
+  .block-icon-left .icon {
+    float: left;
+    width: 30%;
+    margin-top: 10px; }
+
+.who-section {
+  width: 100%;
+  padding: 50px 0;
+  color: #f4f4f4;
+  background: url(../images/downloads-bg.jpg) no-repeat center center scroll;
+  background-color: #333333;
+  background-size: cover; }
+
+@media (min-width: 767px) {
+  .who-section {
+    padding: 100px 0; } }
+
+#clients {
+  text-align: center;
+  padding-bottom: 80px; }
+  #clients img {
+    margin-right: 30px; }
+
+#contact {
+  background: #333333;
+  color: #f4f4f4;
+  padding-bottom: 80px; }
+
+footer {
+  margin-top: 10px;
+  padding-top: 30px;
+  height: 80px;
+  text-align: center; }
+
+.page-scroll {
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: -webkit-transform;
+  -moz-transition-duration: 1s; }
