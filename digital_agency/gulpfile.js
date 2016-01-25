@@ -8,7 +8,7 @@ var plumber = require('gulp-plumber');
 var paths = {
   'scss': 'scss/',
   'css': 'css/'
-}
+};
 
 gulp.task('scss', function() {
   return gulp.src('scss/style.scss')
@@ -20,7 +20,7 @@ gulp.task('scss', function() {
           console.log(err.message);
         })
         .pipe(cssnext())
-        .pipe(gulp.dest(paths.css))
+        .pipe(gulp.dest(paths.css));
 });
 
 gulp.task('watch', ['scss'], function() {
